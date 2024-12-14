@@ -1,0 +1,62 @@
+2024-12-14 19:30:47- Using Log4J2 as the default logging framework
+2024-12-14 19:30:47- -Dio.netty.leakDetection.level: simple
+2024-12-14 19:30:47- -Dio.netty.leakDetection.targetRecords: 4
+2024-12-14 19:30:47- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@24d4d7c9
+2024-12-14 19:30:47- -Dio.netty.noUnsafe: false
+2024-12-14 19:30:47- Java version: 8
+2024-12-14 19:30:47- sun.misc.Unsafe.theUnsafe: available
+2024-12-14 19:30:47- sun.misc.Unsafe.copyMemory: available
+2024-12-14 19:30:47- sun.misc.Unsafe.storeFence: available
+2024-12-14 19:30:47- java.nio.Buffer.address: available
+2024-12-14 19:30:47- direct buffer constructor: available
+2024-12-14 19:30:47- java.nio.Bits.unaligned: available, true
+2024-12-14 19:30:47- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-12-14 19:30:47- java.nio.DirectByteBuffer.<init>(long, int): available
+2024-12-14 19:30:47- sun.misc.Unsafe: available
+2024-12-14 19:30:47- -Dio.netty.tmpdir: C:\Users\MUHAMM~1\AppData\Local\Temp (java.io.tmpdir)
+2024-12-14 19:30:47- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-12-14 19:30:47- Platform: Windows
+2024-12-14 19:30:47- -Dio.netty.maxDirectMemory: 3737649152 bytes
+2024-12-14 19:30:47- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-12-14 19:30:47- java.nio.ByteBuffer.cleaner(): available
+2024-12-14 19:30:47- -Dio.netty.noPreferDirect: false
+2024-12-14 19:30:47- org.jctools-core.MpscChunkedArrayQueue: available
+2024-12-14 19:30:47- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-12-14 19:30:47- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-12-14 19:30:47- Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2024-12-14 19:30:47- Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2024-12-14 19:30:47- -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-12-14 19:30:47- -Dio.netty.eventLoopThreads: 16
+2024-12-14 19:30:47- -Dio.netty.noKeySetOptimization: false
+2024-12-14 19:30:47- -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-12-14 19:30:47- -Dio.netty.allocator.numHeapArenas: 16
+2024-12-14 19:30:47- -Dio.netty.allocator.numDirectArenas: 16
+2024-12-14 19:30:47- -Dio.netty.allocator.pageSize: 8192
+2024-12-14 19:30:47- -Dio.netty.allocator.maxOrder: 9
+2024-12-14 19:30:47- -Dio.netty.allocator.chunkSize: 4194304
+2024-12-14 19:30:47- -Dio.netty.allocator.smallCacheSize: 256
+2024-12-14 19:30:47- -Dio.netty.allocator.normalCacheSize: 64
+2024-12-14 19:30:47- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-12-14 19:30:47- -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-12-14 19:30:47- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-12-14 19:30:47- -Dio.netty.allocator.useCacheForAllThreads: false
+2024-12-14 19:30:47- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-12-14 19:30:47- -Dio.netty.allocator.type: pooled
+2024-12-14 19:30:47- -Dio.netty.threadLocalDirectBufferSize: 0
+2024-12-14 19:30:47- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-12-14 19:30:58- -Dio.netty.processId: 16428 (auto-detected)
+2024-12-14 19:30:58- -Djava.net.preferIPv4Stack: false
+2024-12-14 19:30:58- -Djava.net.preferIPv6Addresses: false
+2024-12-14 19:30:59- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-12-14 19:30:59- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-12-14 19:30:59- -Dio.netty.machineId: bc:6e:e2:ff:fe:cf:c0:c9 (auto-detected)
+2024-12-14 19:30:59- -Dio.netty.buffer.checkAccessible: true
+2024-12-14 19:30:59- -Dio.netty.buffer.checkBounds: true
+2024-12-14 19:30:59- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5d92c9ea
+2024-12-14 19:30:59- -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-12-14 19:30:59- -Dio.netty.recycler.ratio: 8
+2024-12-14 19:30:59- -Dio.netty.recycler.chunkSize: 32
+2024-12-14 19:30:59- -Dio.netty.recycler.blocking: false
+2024-12-14 19:30:59- -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-12-14 19:31:00- brotli4j not in the classpath; Brotli support will be unavailable.
+2024-12-14 19:31:00- -Dio.netty.initialSeedUniquifier: 0x53b439c55be6e851

@@ -24,7 +24,7 @@ public class PageBase {
 
 		public PageBase(WebDriver driver){
 			PageBase.driver= driver;
-			wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+			wait = new WebDriverWait(driver,(Duration.ofSeconds(60)));
 			props = System.getProperties();
 
 			try {
@@ -35,7 +35,9 @@ public class PageBase {
 			}
 		}
 
-		public void clickButton(By button) {safeFind(button).click();}
+		public void clickButton(By button) {
+			wait.until(ExpectedConditions.elementToBeClickable(button));
+			safeFind(button).click();}
 		public void clearText(By button)
 		{
 			safeFind(button).clear();
