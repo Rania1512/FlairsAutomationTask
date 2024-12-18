@@ -23,4 +23,20 @@ Feature: Get numbers of users and Add new user
     Then user added successfully
     Examples:
       | username | password |userNamefiled|userPassword|userRole|status|employeeName|
-      | UserName | Password |    user55d9 |    Password@123        |   Admin     |Enable      |  test          |
+      | UserName | Password |    user955d |    Password@123        |   Admin     |Enable      |  test          |
+
+  @DeleteUser
+  Scenario Outline: Delete new user
+    Given user login with "<username>" and "<password>" in demo site
+    When user press admin tap
+    And user get the current NumberOfRecords
+    And user search with "<user>"
+    And user click on remove button
+    And user press confirm delete user
+    And user refresh page
+    And user get the new current Number of records
+    Then user deleted successfully
+
+    Examples:
+      | username | password |user|
+      | UserName | Password |user955d|

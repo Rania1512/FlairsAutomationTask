@@ -66,4 +66,30 @@ public class UsersCounterStepDefs extends TestBase {
     public void userAddedSuccessfully() {
         Assert.assertEquals((adminPage.currentRecordNumber-adminPage.previousRecordNumber),1);
     }
+
+    @And("user press confirm delete user")
+    public void userPressConfirmDeleteUser() {
+        adminPage.clickOnConfirmDeleteUser();
+    }
+
+    @Then("user deleted successfully")
+    public void userDeletedSuccessfully() {
+        Assert.assertEquals(adminPage.previousRecordNumber-adminPage.currentRecordNumber,1);
+    }
+
+    @And("user search with {string}")
+    public void userSearchWith(String user) {
+        adminPage.searchWithUserName(user);
+
+    }
+
+    @And("user click on remove button")
+    public void userClickOnRemoveButton() {
+        adminPage.clickOnRemoveUserButton();
+    }
+
+    @And("user refresh page")
+    public void userRefreshPage() {
+        refreshCurrentUrl();
+    }
 }

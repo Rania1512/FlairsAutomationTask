@@ -44,6 +44,9 @@ public class TestBase extends AbstractTestNGCucumberTests {
 
         driver.manage().window().maximize();
     }
+    public void refreshCurrentUrl() {
+        driver.navigate().refresh();
+    }
 
 
     @AfterSuite

@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = "src/test/java/tests",
         glue = {"tests"},
-        tags = "@add")
+        tags = "@DeleteUser")
 public class TestRunner extends TestBase {
 
 }
